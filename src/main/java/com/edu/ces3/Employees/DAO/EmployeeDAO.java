@@ -12,7 +12,7 @@ public interface EmployeeDAO {
 
     Employee createEmployee(Employee employee);
 
-    Employee updateEmployee(int id,Employee employee);
+    Employee updateEmployee(int id, Employee employee);
 
     Employee deleteEmployee(int id);
 
