@@ -1,0 +1,4 @@
+CREATE TABLE `db_employees`.`publications` (`id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(120) NOT NULL , `category` VARCHAR(120) NOT NULL , `description` VARCHAR(200) NOT NULL , `banner_image` VARCHAR(120) NULL , `published_at` DATE NOT NULL DEFAULT CURRENT_TIMESTAMP , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+ALTER TABLE `publications` CHANGE `published_at` `published_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP;
